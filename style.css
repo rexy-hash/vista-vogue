@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+  }
+  
+  .logo img {
+    width: 150px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .banner {
+    height: 80vh;
+    background: url("456724642_1044568847377911_4779233656796984356_n.jpg") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-content {
+    text-align: center;
+    color: #fff;
+    text-decoration: 15px;
+  }
+  
+  .banner h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .product-section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product-price {
+    padding: 15px;
+    font-size: 16px;
+    color: #f00;
+  }
+  
+  .shop-now {
+    text-decoration: none;
+    color: #000;
+    background-color: #ffd700;
+    padding: 11px;
+    border-radius: 15px;
+  }
+  
+  .brand-story {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .brand-story h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
